@@ -7,10 +7,6 @@ https://date.nager.at/ is used as a source of data.
 
 ### Setup
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b553233 (changed service class)
 Clone this repository.
 
 ### Usage
@@ -26,9 +22,3 @@ After running endpoint description is available in [Swagger](http://localhost:80
 ## Tests
 
 Run the unit tests using the command  `mvnw test`
-<<<<<<< HEAD
-=======
-To run this program, simply clone this repository.
->>>>>>> 10574f2 (Create README.md)
-=======
->>>>>>> b553233 (changed service class)

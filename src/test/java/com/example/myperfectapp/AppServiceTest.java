@@ -14,7 +14,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @ExtendWith(MockitoExtension.class)
-public class AppServiceTes {
+public class AppServiceTest {
 
     @Spy
     AppService appService;
@@ -25,8 +25,7 @@ public class AppServiceTes {
         String secondCountry = "LT";
         String year = "2021";
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+
         HolidayResponse[] firstHolidays = {
                 new HolidayResponse("New Year's Day", LocalDate.of(2021,1,1)),
                 new HolidayResponse("Good Friday", LocalDate.of(2021,4,2)),
@@ -34,22 +33,6 @@ public class AppServiceTes {
 
         HolidayResponse[] secondHolidays = {
                 new HolidayResponse("New Year's Day", LocalDate.of(2021,1,1)),
-=======
-        HolidayResponse[] firstHolidays = {new HolidayResponse("New Year's Day", LocalDate.of(2021,1,1)),
-                new HolidayResponse("Good Friday", LocalDate.of(2021,4,2)),
-                new HolidayResponse("Easter Monday", LocalDate.of(2021,4,5))};
-
-        HolidayResponse[] secondHolidays = {new HolidayResponse("New Year's Day", LocalDate.of(2021,1,1)),
->>>>>>> 53be384 (added correct tests)
-=======
-        HolidayResponse[] firstHolidays = {
-                new HolidayResponse("New Year's Day", LocalDate.of(2021,1,1)),
-                new HolidayResponse("Good Friday", LocalDate.of(2021,4,2)),
-                new HolidayResponse("Easter Monday", LocalDate.of(2021,4,5))};
-
-        HolidayResponse[] secondHolidays = {
-                new HolidayResponse("New Year's Day", LocalDate.of(2021,1,1)),
->>>>>>> 4809b82 (fixed test)
                 new HolidayResponse("Bad Friday", LocalDate.of(2021,4,2)),
                 new HolidayResponse("Easter Monday", LocalDate.of(2021,4,5))};
 
