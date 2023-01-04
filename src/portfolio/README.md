@@ -17,7 +17,7 @@ Clone this repository.
 
 
 After running endpoint description is available in [Swagger](http://localhost:8080/swagger-ui/index.html)
-![](swagger.png)
+![](../../swagger.png)
 
 ## Tests
 
